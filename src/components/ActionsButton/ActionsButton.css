@@ -1,0 +1,37 @@
+/** @format */
+
+.actionsButton {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100vw;
+	align-items: center;
+	margin: auto;
+	position: fixed;
+	bottom: 30px;
+}
+.actionsButton svg {
+	transition: all 0.3s ease;
+}
+.actionsButton :hover {
+	transform: scale(1.01);
+}
+.actionsButton .MuiButtonBase-root {
+	background-color: white;
+	box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3) !important;
+}
+.actionsButton .replay {
+	color: #f5b748 !important;
+}
+.actionsButton .favorite {
+	color: #ec5e6f !important;
+}
+.actionsButton .star {
+	color: #62b4f9;
+}
+.actionsButton .flash {
+	color: #915dd1;
+}
+
+.actionsButton .close {
+	color: #16bd6f;
+}

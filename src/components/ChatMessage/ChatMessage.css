@@ -1,0 +1,39 @@
+/** @format */
+
+.chatMessage {
+	padding: 20px;
+}
+.chatMessage h4 {
+	font-size: 1.3rem;
+	text-align: center;
+	color: #666;
+}
+.msg {
+	display: flex;
+	margin: 15px 0;
+	align-items: center;
+	font-size: 18px;
+}
+.msg img {
+	width: 50px;
+	border-radius: 50%;
+	height: 50px;
+	margin-right: 10px;
+}
+.msg p {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 25px;
+	background-color: #f1f1f1;
+}
+.chatMessage__response {
+	margin: 20px 0;
+}
+.chatMessage__response p {
+	display: inline-block;
+	float: right;
+	padding: 10px 20px;
+	border-radius: 25px;
+	background-color: #0a7bbd;
+	color: #fff;
+}

@@ -1,0 +1,21 @@
+/** @format */
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	border-bottom: 1px solid #ccc;
+}
+.header__logo {
+	width: 80px;
+}
+.header svg {
+	font-size: 32px;
+	color: #656565;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+.header svg:hover {
+	color: rgb(228, 17, 87);
+}
